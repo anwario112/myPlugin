@@ -4,6 +4,9 @@
  * Author: Anwar
  */
 
+ if (! defined('ABSPATH')) 
+      die;
+
 add_action('rest_api_init', 'register_products_callback_url');
 
 function register_products_callback_url() {
